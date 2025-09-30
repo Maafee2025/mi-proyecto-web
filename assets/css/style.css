@@ -49,6 +49,25 @@ li {
     font-size: large;
 }
 
-p {
+.texto {
     color: steelblue;
+}
+footer {
+    text-align: end;
+    font-family: cursive;
+    color: rgb(135, 135, 135);
+    font-size: 15px;
+}
+#boton {
+    border-radius: 45px;
+    margin-right: 550px;
+    padding: 15px;
+    background-image: linear-gradient(rgb(252, 180, 160), rgb(120, 240, 248), rgb(253, 114, 93));
+    &:hover {
+        background-image: radial-gradient(rgb(255, 182, 149), rgb(169, 239, 246));
+    }
+}
+#politica {
+    display: none;
+    text-align:left;
 }
