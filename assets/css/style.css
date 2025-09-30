@@ -1,15 +1,54 @@
 body {
-    background-color: rgb(202, 253, 236);
+    background-color: #f0e9e3;
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+.metamorfosis {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+}
+.monarca {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
 }
 
 h1 {
     color: rgb(255, 95, 46);
+    text-align: center;
 }
+/* Estilo solo para los <li> que están dentro del <ol> */
+main ol > li {
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif; 
+    color: steelblue; 
+    font-weight: bold; 
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    list-style-type: decimal; 
+}
+
 
 li {
     color: rgb(244, 160, 71);
+    font-size: large;
 }
 
 p {
-    color: blue;
+    color: steelblue;
 }
